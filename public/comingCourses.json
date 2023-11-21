@@ -1,0 +1,28 @@
+
+[
+    {
+      "id": 1,
+      "title": "Introduction to Data Science",
+      "img": "https://i.ibb.co/zfjJ08s/science.jpg",
+      "price": "99",
+      "location": "184 Main Collins Street",
+      "date": "2024-02-15"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Bootcamp",
+      "img": "https://i.ibb.co/M7WxnVT/bootcamp.jpg",
+      "price": "149",
+      "location": "City University Campus",
+      "date": "2024-03-10"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Fundamentals",
+      "img": "https://i.ibb.co/MpPZtPY/macine.jpg",
+      "price": "129",
+      "location": "Tech Hub Co-working Space",
+      "date": "2024-04-05"
+    }
+  ]
+  

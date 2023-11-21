@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "img": "https://i.ibb.co/nzHKv4D/1.jpg",
+      "passion": "Associate professor"
+    },
+    {
+      "id": 2,
+      "name": "James Smith",
+      "img": "https://i.ibb.co/nCmZyyM/2.jpg",
+      "passion": "Assistant professor"
+    },
+    {
+      "id": 3,
+      "name": "Emily Davis",
+      "img": "https://i.ibb.co/KhWPGVk/3.jpg",
+      "passion": "Associate professor"
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "img": "https://i.ibb.co/8mwyLwd/4.jpg",
+      "passion": "Assistant professor"
+    },
+    {
+      "id": 5,
+      "name": "Amanda White",
+      "img": "https://i.ibb.co/1JjBg7C/5.jpg",
+      "passion": "Assistant professor"
+    },
+    {
+      "id": 6,
+      "name": "Andrew Taylor",
+      "img": "https://i.ibb.co/QNZcqQy/6.jpg",
+      "passion": "Associate professor"
+    }
+  ]
+  
