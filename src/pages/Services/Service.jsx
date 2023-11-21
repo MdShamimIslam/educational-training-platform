@@ -23,7 +23,7 @@ const Service = ({ service }) => {
         </p>
         <p>Duration : {duration}</p>
         <p>Price : $ {price}</p>
-        <div className="card-actions ">
+        <div>
           <Link to=''>
             <button className="btn btn-warning w-full">Course Details</button>
           </Link>
