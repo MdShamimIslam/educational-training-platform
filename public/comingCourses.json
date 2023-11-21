@@ -2,16 +2,16 @@
 [
     {
       "id": 1,
-      "title": "Introduction to Data Science",
-      "img": "https://i.ibb.co/zfjJ08s/science.jpg",
+      "title": "Introduction to Ruby",
+      "img": "https://i.ibb.co/JBcTJzV/rubby.png",
       "price": "99",
       "location": "184 Main Collins Street",
       "date": "2024-02-15"
     },
     {
       "id": 2,
-      "title": "Web Development Bootcamp",
-      "img": "https://i.ibb.co/M7WxnVT/bootcamp.jpg",
+      "title": "Introduction to Laravel",
+      "img": "https://i.ibb.co/m8M3zj9/laravel.jpg",
       "price": "149",
       "location": "City University Campus",
       "date": "2024-03-10"

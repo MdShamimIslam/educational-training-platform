@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "title": "Python for Beginners",
+      "img": "https://i.ibb.co/k43Vhm1/python.jpg",
+      "price": 120,
+      "duration": "8 weeks",
+      "description": "Learn Python from scratch with this comprehensive course designed for beginners. Explore the fundamentals of programming, syntax, and problem-solving using Python. Gain hands-on experience through practical exercises and real-world projects. By the end of the 8-week program, you'll have a solid foundation in Python programming and be ready to tackle more advanced topics.",
+      "rating": 4.6
+
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Mastery",
+      "img": "https://i.ibb.co/vwTMjcC/js-mastery.png",
+      "price": 125,
+      "duration": "10 weeks",
+      "description": "Unlock the power of JavaScript with this in-depth course. Dive into the language that powers dynamic web content and build interactive, feature-rich web applications. Covering everything from basic syntax to advanced concepts like asynchronous programming, this 10-week course will equip you with the skills to develop modern, responsive web applications.",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "Java Programming Essentials",
+      "img": "https://i.ibb.co/x336qHg/java.jpg",
+      "price": 145,
+      "duration": "12 weeks",
+      "description": "Master the fundamentals of Java programming with this comprehensive course. Explore object-oriented programming principles, data structures, and algorithm design. With hands-on coding exercises and real-world examples, you'll develop a strong foundation in Java and be well-prepared for building scalable and efficient applications in the enterprise.",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "title": "Data Science with R",
+      "img": "https://i.ibb.co/zHy10WQ/sciencejpg.jpg",
+      "price": 142,
+      "duration": "14 weeks",
+      "description": "Delve into the world of data science using R. This 14-week course covers statistical analysis, data visualization, and machine learning with R programming. Gain practical experience by working on data-driven projects, and learn to derive meaningful insights from complex datasets. Whether you're a beginner or experienced programmer, this course will enhance your data science skills.",
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "title": "React.js Development",
+      "img": "https://i.ibb.co/3T5NKpL/react.jpg",
+      "price": 102,
+      "duration": "10 weeks",
+      "description": "Become a proficient React.js developer with this hands-on course. Learn to build interactive and dynamic user interfaces for web applications using the popular React library. Covering topics such as component-based architecture, state management, and routing, this 10-week program will empower you to create modern, responsive web applications with ease.",
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "title": "C# Programming Mastery",
+      "img": "https://i.ibb.co/qxjH0QZ/c.png",
+      "price": 90,
+      "duration": "11 weeks",
+      "description": "Unlock the potential of C# programming with this comprehensive mastery course. Covering everything from basic syntax to advanced topics like asynchronous programming and LINQ, this 11-week program will equip you with the skills to develop robust and efficient applications for various platforms, including desktop and web.",
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Web Development",
+      "img": "https://i.ibb.co/LpmbsQ3/web.png",
+      "price": 210,
+      "duration": "16 weeks",
+      "description": "Embark on a journey to become a full-stack web developer with this intensive 16-week course. Covering both front-end and back-end development, you'll learn essential technologies such as HTML, CSS, JavaScript, Node.js, and Express.js. Build real-world projects and gain the skills needed to create dynamic and scalable web applications.",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "title": "Mobile App Development with Flutter",
+      "img": "https://i.ibb.co/MkV7cQH/flutter.png",
+      "price": 175,
+      "duration": "12 weeks",
+      "description": "Learn to develop cross-platform mobile applications with Flutter. This 12-week course covers Flutter's widget-based architecture, state management, and integration with backend services. By the end of the program, you'll have the skills to create high-quality mobile apps for both iOS and Android platforms, making you a versatile mobile app developer.",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "title": "DevOps Fundamentals",
+      "img": "https://i.ibb.co/c3yQdRB/devOps.jpg",
+      "price": 90,
+      "duration": "9 weeks",
+      "description": "Master the essential principles of DevOps with this comprehensive 9-week course. Explore the integration of development and operations to achieve continuous delivery and automation. Learn to use tools like Docker and Jenkins to streamline the software development lifecycle, ensuring faster and more reliable delivery of software solutions.",
+      "rating": 4.9
+    }
+  ]
+  

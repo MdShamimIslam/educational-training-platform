@@ -10,7 +10,7 @@ const ComingEvents = () => {
       .then((data) => setEvents(data));
   }, []);
   return (
-    <div className="my-12">
+    <div className="mt-24">
       <div className="text-center ">
         <h3 className="text-5xl mb-4 font-bold text-green-600">Upcoming Courses</h3>
         <p className="text-lg">
@@ -18,7 +18,7 @@ const ComingEvents = () => {
           lorem quis <br /> bibendum auci elit consequat ipsutis sem nibh id elit
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {
             events?.map(event => <Event key={event.id} event={event}></Event>)
         }

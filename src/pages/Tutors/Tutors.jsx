@@ -11,7 +11,7 @@ const Tutors = () => {
   }, []);
 
   return (
-    <div className="my-16">
+    <div className="mt-24">
       <div className="text-center ">
         <h3 className="text-5xl mb-4 font-bold text-purple-500">
          
