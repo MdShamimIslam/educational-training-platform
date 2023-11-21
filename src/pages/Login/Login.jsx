@@ -2,10 +2,12 @@ import React, { useContext } from "react";
 import loginImg from '../../assets/login.png';
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
-    const {signIn} = useContext(AuthContext)
+    const {signIn} = useContext(AuthContext);
+    const location = useLocation();
+  const navigate = useNavigate();
 
     const handleLogin = e => {
         e.preventDefault();
@@ -24,6 +26,7 @@ const Login = () => {
                 showConfirmButton: false,
                 timer: 1500
               });
+              navigate(location?.state ? location.state : '/')
         })
         .catch(error => {
             console.error(error);
@@ -71,7 +74,7 @@ const Login = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn btn-primary">Sign In</button>
             </div>
             </form>
             <p className="text-center">Don't have an account ? <Link className="text-lg text-blue-500" to='/signUp'>Sign Up</Link></p>

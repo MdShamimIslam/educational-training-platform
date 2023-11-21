@@ -2,10 +2,12 @@ import React, { useContext } from "react";
 import signUpImg from "../../assets/signUp.png";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const { createUser,profileUpdate } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const handleSignUp = (e) => {
     e.preventDefault();
@@ -36,9 +38,10 @@ const SignUp = () => {
                 timer: 1500,
               });
         })
-        .then(error => console.error(error))
+        .then(error => console.error(error));
 
         e.target.reset();
+        navigate(location?.state ? location.state : '/')
         
       })
       .catch((error) => {
@@ -103,11 +106,6 @@ const SignUp = () => {
                   className="input input-bordered"
                   required
                 />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
               </div>
               <div className="form-control mt-6">
                 <button className="btn btn-primary">Sign Up</button>

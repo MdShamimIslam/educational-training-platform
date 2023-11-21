@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Service = ({ service }) => {
-  const { title, img, description, duration, price } = service;
+  const { id,title, img, description, duration, price } = service;
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
@@ -15,7 +15,7 @@ const Service = ({ service }) => {
             <p>
               {description.slice(0, 140)}
               <br />
-              <Link className=" text-blue-500">Read more.....</Link>
+              <Link to={`/service/${id}`} className=" text-blue-500">Read more.....</Link>
             </p>
           ) : (
             <p>{description}</p>
@@ -24,7 +24,7 @@ const Service = ({ service }) => {
         <p>Duration : {duration}</p>
         <p>Price : $ {price}</p>
         <div>
-          <Link to=''>
+          <Link to={`/service/${id}`}>
             <button className="btn btn-warning w-full">Course Details</button>
           </Link>
         </div>

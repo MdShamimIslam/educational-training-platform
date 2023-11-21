@@ -87,16 +87,17 @@ const Navbar = () => {
               data-tip={user?.displayName}
               className="btn btn-ghost btn-circle avatar mr-2 tooltip"
             >
-              <div className="w-10 rounded-full" >
+              <div className="w-12 rounded-full" >
                 <img alt="user-image" src={user?.photoURL} />
               </div>
             </label>
           ) : (
             <label
               tabIndex={0}
-              className="btn btn-ghost btn-circle avatar mr-2"
+              data-tip='No User'
+              className="btn btn-ghost btn-circle avatar mr-2 tooltip"
             >
-              <div className="w-10 rounded-full">
+              <div className="w-12 rounded-full">
                 <img alt="user-image" src={userImage} />
               </div>
             </label>
