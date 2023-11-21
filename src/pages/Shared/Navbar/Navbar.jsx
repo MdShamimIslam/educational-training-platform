@@ -9,9 +9,6 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
-      </li>
-      <li>
         <NavLink to="/about">About</NavLink>
       </li>
     </>
@@ -47,14 +44,16 @@ const Navbar = () => {
           </div>
           <Link to="/" className="btn btn-ghost text-xl">
             <img className="w-6" src={logo} alt="website-logo" />
-            <span className="text-3xl font-bold">s.Academy</span>
+            <span className="text-3xl font-bold">s.<span className="text-yellow-500">A</span>cademy</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <button className="btn">
+            <NavLink to="/login">Login</NavLink>
+          </button>
         </div>
       </div>
     </div>
