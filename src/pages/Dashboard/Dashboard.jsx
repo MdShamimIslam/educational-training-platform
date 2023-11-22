@@ -1,12 +1,15 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
     const {user} = useContext(AuthContext);
   return (
     <div className="my-16 max-w-3xl mx-auto">
+      <Helmet>
+        <title>s.Academy | Dashboard</title>
+      </Helmet>
         <h2 className="text-4xl font-semibold text-center my-8">Only User Dashboard</h2>
-       
       <section>
          {/* stat-1 */}
       <div className=" bg-gray-100 shadow m-4 rounded-lg">

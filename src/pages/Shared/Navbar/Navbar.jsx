@@ -71,8 +71,8 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl">
-            <img className="w-6" src={logo} alt="website-logo" />
-            <span className="text-3xl font-bold hidden md:block">
+            <img className="w-8" src={logo} alt="website-logo" />
+            <span className="text-4xl font-bold hidden md:block">
               s.<span className="text-yellow-500">A</span>cademy
             </span>
           </Link>

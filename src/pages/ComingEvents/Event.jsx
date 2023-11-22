@@ -3,7 +3,7 @@ import React from 'react';
 const Event = ({event}) => {
     const { img, title, price, location, date } = event;
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-xl" data-aos="flip-right" data-aos-duration="2000">
         <figure>
           <img
             src={img}

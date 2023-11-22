@@ -1,8 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Service from "./Service";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Services = () => {
     const [services, setServices] = useState([]);
+
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
 
   useEffect(() => {
     fetch("services.json")
@@ -11,7 +19,7 @@ const Services = () => {
   }, []);
   return (
     <div className="my-16">
-      <div className="text-center ">
+      <div className="text-center" data-aos="zoom-in-left" data-aos-duration="2000">
         <h3 className="md:text-5xl text-4xl font-bold lg:mb-4">Our Courses</h3>
         <div className="text-lg text-justify md:text-center p-4 md:p-8 lg:p-0 lg:w-3/5 mx-auto">
         <p>You can check our courses to reach the highest level of your skills in keeping

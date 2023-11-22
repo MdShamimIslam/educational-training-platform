@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </aside>
         <nav>
-          <header className="footer-title">Follow Us</header>
+          <header className="footer-title">Get In Touch</header>
           <p>Email : shamim401897@gmail.com</p>
           <p>Phone : 01738740639</p>
           <p>Address : Jamal,Sundargonj,Gaibandha</p>

@@ -11,7 +11,7 @@ const ComingEvents = () => {
   }, []);
   return (
     <div className="mt-24">
-      <div className="text-center ">
+      <div className="text-center " data-aos="zoom-out-up" data-aos-duration="2000">
         <h3 className="md:text-5xl text-4xl font-bold text-green-600 lg:mb-4">Upcoming Courses</h3>
         <div className="text-lg text-justify md:text-center p-4 md:p-8 lg:p-0 lg:w-3/5 mx-auto">
           <p> We hope you have learned a lot from the previous courses.So we want to offer some more courses 

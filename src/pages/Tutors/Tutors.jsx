@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Tutor from "./Tutor";
 
+
 const Tutors = () => {
   const [tutors, setTutors] = useState([]);
 
@@ -12,7 +13,8 @@ const Tutors = () => {
 
   return (
     <div className="mt-24">
-      <div className="text-center ">
+      
+      <div className="text-center" data-aos="zoom-in-left" data-aos-duration="2000">
         <h3 className="md:text-5xl text-4xl lg:mb-4 font-bold text-purple-500">
           Top Tutors in Every Course
         </h3>
