@@ -10,13 +10,13 @@ const ServiceDetails = () => {
   const { title, img, description, rating } = service;
 
   return (
-    <div className="card w-[900px] bg-base-500 shadow-xl mx-auto my-16 ">
+    <div className="card lg:w-[900px] md:w-[750px] h-[700px] bg-base-500 shadow-2xl mx-4  md:mx-auto my-16">
       <figure>
         <img src={img} className="w-full h-[400px]" alt="Course-image" />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-2xl font-bold">{title}</h2>
-        <p className="text-lg">{description}</p>
+        <p className="text-lg text-justify">{description}</p>
         <p className="flex items-center gap-3 mt-2">
           <Rating initialRating={rating} readonly />
           <span className="text-2xl font-medium">{rating}</span> 

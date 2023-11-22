@@ -25,17 +25,17 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink className="text-lg font-medium" to="/">
+        <NavLink className="md:text-lg font-medium" to="/">
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink className="text-lg font-medium" to="/dashboard">
+        <NavLink className="md:text-lg font-medium" to="/dashboard">
           Dashboard
         </NavLink>
       </li>
       <li>
-        <NavLink className="text-lg font-medium" to="/about">
+        <NavLink className="md:text-lg font-medium" to="/about">
           About
         </NavLink>
       </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
           <Link to="/" className="btn btn-ghost text-xl">
             <img className="w-6" src={logo} alt="website-logo" />
-            <span className="text-3xl font-bold">
+            <span className="text-3xl font-bold hidden md:block">
               s.<span className="text-yellow-500">A</span>cademy
             </span>
           </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
               data-tip={user?.displayName}
               className="btn btn-ghost btn-circle avatar mr-2 tooltip"
             >
-              <div className="w-12 rounded-full" >
+              <div className="w-12  rounded-full" >
                 <img alt="user-image" src={user?.photoURL} />
               </div>
             </label>
@@ -97,7 +97,7 @@ const Navbar = () => {
               data-tip='No User'
               className="btn btn-ghost btn-circle avatar mr-2 tooltip"
             >
-              <div className="w-12 rounded-full">
+              <div className="w-12  rounded-full">
                 <img alt="user-image" src={userImage} />
               </div>
             </label>

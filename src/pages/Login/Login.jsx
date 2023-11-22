@@ -3,9 +3,10 @@ import loginImg from '../../assets/login.png';
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
-    const {signIn} = useContext(AuthContext);
+    const {signIn,googleSignIn} = useContext(AuthContext);
     const location = useLocation();
   const navigate = useNavigate();
 
@@ -32,6 +33,26 @@ const Login = () => {
             console.error(error);
         })
         
+    }
+
+    const handleGoogleSignIn = () => {
+      googleSignIn()
+      .then((res)=>{
+        const user = res.user;
+        console.log(user);
+  
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "User Sign In Successfully",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        
+      })
+      .catch(error =>{
+        console.error(error)
+      })
     }
 
   return (
@@ -77,6 +98,12 @@ const Login = () => {
               <button className="btn btn-primary">Sign In</button>
             </div>
             </form>
+            <div>
+              <button onClick={handleGoogleSignIn} className="btn w-full my-4">
+                <FcGoogle className="text-xl"></FcGoogle> 
+               Sign In with Google
+              </button>
+            </div>
             <p className="text-center">Don't have an account ? <Link className="text-lg text-blue-500" to='/signUp'>Sign Up</Link></p>
           </div>
         </div>
