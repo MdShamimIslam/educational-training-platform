@@ -10,11 +10,11 @@ const Footer = () => {
         <aside>
           <img className="w-12" src={logo} alt="website-logo" />
           <p>
-            <span className="text-2xl font-semibold my-2">
+            <span className="lg:text-2xl md:text-xl text-lg font-semibold my-2">
               s.<span className="text-yellow-500">A</span>cademy Industries Ltd.
             </span>
             <br />
-            <span className="text-lg mt-2">
+            <span className="lg:text-lg mt-2">
               Providing reliable tech since 2020
             </span>
           </p>
