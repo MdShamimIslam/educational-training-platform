@@ -1,0 +1,40 @@
+[
+   
+        {
+            "id": 1,
+            "number":"1",
+            "name": "title International Job Placement",
+            "des": "In the era of globalization, why is your job placement target only Bangladesh? Close to 50% of our recent graduates are getting interns or jobs overseas."
+        },
+        {
+            "id": 2,
+            "number":"2",
+            "name": "title Option to watch offline videos",
+            "des": "You do not have a reliable internet! You can use our neptune app (android and ios) and windows desktop app to watch videos offline without."
+        },
+        {
+            "id": 3,
+            "number":"3",
+            "name": "Special Job Placement Coach",
+            "des": "Those who will finish the main course and SCIC (Super charged Interviewee club) will get access to work with the Job Placement Coach."
+        },
+        {
+            "id": 4,
+            "number":"4",
+            "name": "Unlimited Support",
+            "des": "Any questions you may have will be answered within 10 hours during the course"
+        },
+        {
+            "id": 5,
+            "number":"5",
+            "name": "Live Conceptual Session",
+            "des": "Our live conceptual sessions will clear your doubts through live coding in different projects."
+        },
+        {
+            "id": 6,
+            "number":"6",
+            "name": "Complete Web Development Course",
+            "des": "Learn everything it takes to get a job as a junior web developer from scratch"
+        }
+   
+]

@@ -14,7 +14,7 @@ const Footer = () => {
               s.<span className="text-yellow-500">A</span>cademy Industries Ltd.
             </span>
             <br />
-            <span className="lg:text-lg mt-2">
+            <span className="mt-2">
               Providing reliable tech since 2020
             </span>
           </p>

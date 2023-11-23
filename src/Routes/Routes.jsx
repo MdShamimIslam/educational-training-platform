@@ -7,6 +7,7 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import ErrorPage from "../ErrorPage/ErrorPage";
+import AccessCourse from "../pages/AccessCourse/AccessCourse";
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
             {
                 path:'/dashboard',
                 element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
+            },
+            {
+                path:'/accessCourse',
+                element:<PrivateRoute><AccessCourse></AccessCourse></PrivateRoute>,
+                loader:()=> fetch('accesses.json')
             },
             {
                 path:'/service/:id',

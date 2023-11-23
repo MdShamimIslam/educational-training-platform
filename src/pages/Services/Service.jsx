@@ -10,16 +10,17 @@ const Service = ({ service }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p className="text-justify">
+        <p className="">
           {description.length > 150 ? (
-            <p>
+            <span>
               {description.slice(0, 140)}
               <br />
               <Link to={`/service/${id}`} className=" text-blue-500">Read more.....</Link>
-            </p>
+            </span>
           ) : (
-            <p>{description}</p>
+            <span>{description}</span>
           )}
+          
         </p>
         <p>Duration : {duration}</p>
         <p>Price : $ {price}</p>

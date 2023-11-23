@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "JavaScript Mastery",
-      "img": "https://i.ibb.co/vwTMjcC/js-mastery.png",
+      "img": "https://i.ibb.co/RCNJZmJ/jsmasteryjpg.jpg",
       "price": 125,
       "duration": "10 weeks",
       "description": "Unlock the power of JavaScript with this in-depth course. Dive into the language that powers dynamic web content and build interactive, feature-rich web applications. Covering everything from basic syntax to advanced concepts like asynchronous programming, this 10-week course will equip you with the skills to develop modern, responsive web applications.",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "title": "C# Programming Mastery",
-      "img": "https://i.ibb.co/qxjH0QZ/c.png",
+      "img": "https://i.ibb.co/4jYDxWJ/c.png",
       "price": 90,
       "duration": "11 weeks",
       "description": "Unlock the potential of C# programming with this comprehensive mastery course. Covering everything from basic syntax to advanced topics like asynchronous programming and LINQ, this 11-week program will equip you with the skills to develop robust and efficient applications for various platforms, including desktop and web.",

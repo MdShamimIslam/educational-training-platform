@@ -7,9 +7,9 @@ const Dashboard = () => {
   return (
     <div className="my-16 max-w-3xl mx-auto">
       <Helmet>
-        <title>s.Academy | Dashboard</title>
+        <title>s.Academy || Dashboard</title>
       </Helmet>
-        <h2 className="text-4xl font-semibold text-center my-8">Only User Dashboard</h2>
+        <h2 className="text-4xl font-semibold text-center my-8 text-blue-500">Admin & User Dashboard</h2>
       <section>
          {/* stat-1 */}
       <div className=" bg-gray-100 shadow m-4 rounded-lg">

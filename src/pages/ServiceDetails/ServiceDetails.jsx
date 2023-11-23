@@ -11,7 +11,7 @@ const ServiceDetails = () => {
   const { title, img, description, rating,price,duration } = service;
 
   return (
-    <div className="card lg:w-[900px] md:w-[750px] h-[700px] bg-base-500 shadow-2xl mx-4  md:mx-auto my-16">
+    <div className="card lg:w-[900px] md:w-[750px] md:h-[700px] h-[750px] bg-base-500 shadow-2xl mx-4  md:mx-auto my-16">
         <Helmet>
         <title>s.Academy || Course Details</title>
       </Helmet>

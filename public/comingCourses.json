@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Introduction to Laravel",
-      "img": "https://i.ibb.co/m8M3zj9/laravel.jpg",
+      "img": "https://i.ibb.co/F00tnqc/lara.jpg",
       "price": "149",
       "location": "City University Campus",
       "date": "2024-03-10"
@@ -23,6 +23,30 @@
       "price": "129",
       "location": "Tech Hub Co-working Space",
       "date": "2024-04-05"
+    },
+    {
+      "id": 4,
+      "title": "Redux Thunk",
+      "img": "https://i.ibb.co/wdgZYpZ/reduxjpg.jpg",
+      "price": "79",
+      "location": "Mirpur-14 Street",
+      "date": "2024-07-15"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Next.js",
+      "img": "https://i.ibb.co/FVDGV3Q/next.jpg",
+      "price": "89",
+      "location": "Sadi University Campus",
+      "date": "2024-06-10"
+    },
+    {
+      "id": 6,
+      "title": "MySQL Fundamentals",
+      "img": "https://i.ibb.co/Y8c3b1T/sql.jpg",
+      "price": "109",
+      "location": "Banani Dhaka street",
+      "date": "2024-08-05"
     }
   ]
   

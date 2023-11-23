@@ -38,29 +38,30 @@ const Login = () => {
       })
       .catch((error) => {
         e.target.reset();
+        setErrorMess(error.message)
 
-        const errorCode = error.code;
-        const errorMessage = error.message;
+        // const errorCode = error.code;
+        // const errorMessage = error.message;
 
-        if (errorCode === "auth/invalid-password") {
-          setErrorMess(
-            "Invalid password. Please check your password and try again."
-          );
-          return;
-          ;
-        } else if (errorCode === "auth/user-not-found") {
-          setErrorMess("User not found. Please check your email and try again.");
-          return;
-        } else if (errorCode === "auth/invalid-email") {
-          setErrorMess(
-            "Invalid email address. Please enter a valid email address."
-          );
-          return;
-        } else  {
-          console.error(errorMessage);
-          setErrorMess("An error occurred. Please try again later.");
-          return;
-        }
+        // if (errorCode === "auth/invalid-password") {
+        //   setErrorMess(
+        //     "Invalid password. Please check your password and try again."
+        //   );
+        //   return;
+        //   ;
+        // } else if (errorCode === "auth/user-not-found") {
+        //   setErrorMess("User not found. Please check your email and try again.");
+        //   return;
+        // } else if (errorCode === "auth/invalid-email") {
+        //   setErrorMess(
+        //     "Invalid email address. Please enter a valid email address."
+        //   );
+        //   return;
+        // } else  {
+        //   console.error(errorMessage);
+        //   setErrorMess("An error occurred. Please try again later.");
+        //   return;
+        // }
       });
   };
 
@@ -99,7 +100,7 @@ const Login = () => {
             <div className="bg-slate-100 rounded-lg mt-2">
               {errorMess && (
                 <p className="text-red-600 text-center p-2">
-                  Error : {errorMess}
+                 {errorMess}
                 </p>
               )}
             </div>

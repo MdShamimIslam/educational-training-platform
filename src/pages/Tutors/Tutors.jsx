@@ -25,7 +25,7 @@ const Tutors = () => {
           
         </div>
       </div>
-      <div className="lg:mt-16 md:mt-10 mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="lg:mt-16 md:mt-10 mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {
             tutors?.map(tutor => <Tutor key={tutor.id} tutor={tutor}></Tutor>)
         }
